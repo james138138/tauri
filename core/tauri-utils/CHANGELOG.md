@@ -1,5 +1,15 @@
 # Changelog
 
+## \[1.5.0]
+
+### New Features
+
+- [`4dd4893d`](https://www.github.com/tauri-apps/tauri/commit/4dd4893d7d166ac3a3b6dc2e3bd2540326352a78)([#5844](https://www.github.com/tauri-apps/tauri/pull/5844)) Allow specifying resources as a map specifying source and target paths.
+
+### Security fixes
+
+- [`eeff1784`](https://www.github.com/tauri-apps/tauri/commit/eeff1784e1ffa568e4ba024e17dd611f8e086784)([#7359](https://www.github.com/tauri-apps/tauri/pull/7359)) Changed HTML implementation from unmaintained `kuchiki` to `kuchikiki`.
+
 ## \[1.4.0]
 
 ### New Features

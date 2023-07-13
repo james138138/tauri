@@ -1,5 +1,28 @@
 # Changelog
 
+## \[1.5.0]
+
+### New Features
+
+- [`fdaee9a5`](https://www.github.com/tauri-apps/tauri/commit/fdaee9a5ce988c448dd035c2050c339d275e8d15)([#7330](https://www.github.com/tauri-apps/tauri/pull/7330)) Add `tauri::plugin::Builder::register_uri_scheme_protocol`
+
+### Enhancements
+
+- [`757e959e`](https://www.github.com/tauri-apps/tauri/commit/757e959eb276ed535cfddb0dea8897c56441c644)([#7285](https://www.github.com/tauri-apps/tauri/pull/7285)) Open links externally when `<base target="_blank" />` exists
+- [`c9827338`](https://www.github.com/tauri-apps/tauri/commit/c98273387c0ffbb8d0de78ce17006411a1f503ee)([#7379](https://www.github.com/tauri-apps/tauri/pull/7379)) Enhance `readDir` API error with path information.
+
+### Bug Fixes
+
+- [`1a3dcdb8`](https://www.github.com/tauri-apps/tauri/commit/1a3dcdb8302fad511f2c1cd418fbc4cff0bd62ac)([#7184](https://www.github.com/tauri-apps/tauri/pull/7184)) On Windows, fix NSIS installers requiring administrator rights failing to be launched by updater.
+- [`fa7f9b77`](https://www.github.com/tauri-apps/tauri/commit/fa7f9b77ab8f0c890e9d7b120901610e0d3e4c46)([#7329](https://www.github.com/tauri-apps/tauri/pull/7329)) Fix updater not following endpoint redirects.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@1.5.0`
+- Upgraded to `tauri-runtime@0.14.1`
+- Upgraded to `tauri-runtime-wry@0.14.1`
+- Upgraded to `tauri-macros@1.4.1`
+
 ## \[1.4.1]
 
 ### Bug Fixes

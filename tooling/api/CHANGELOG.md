@@ -1,5 +1,11 @@
 # Changelog
 
+## \[1.4.1]
+
+### Bug Fixes
+
+- [`2eab1505`](https://www.github.com/tauri-apps/tauri/commit/2eab1505632ff71431d4c31c49b5afc78fa5b9dd)([#7390](https://www.github.com/tauri-apps/tauri/pull/7390)) Fix `Body.form` static not reading and sending entries of type `Blob` (including subclasses such as `File`)
+
 ## \[1.4.0]
 
 ### New Features

@@ -1,5 +1,28 @@
 # Changelog
 
+## \[1.4.0]
+
+### New Features
+
+- [`4dd4893d`](https://www.github.com/tauri-apps/tauri/commit/4dd4893d7d166ac3a3b6dc2e3bd2540326352a78)([#5844](https://www.github.com/tauri-apps/tauri/pull/5844)) Allow using a resource map instead of a simple array in `BundleSettings::resources_map`.
+
+### Enhancements
+
+- [`764968ab`](https://www.github.com/tauri-apps/tauri/commit/764968ab383ec639e061986bc2411dd44e71b612)([#7348](https://www.github.com/tauri-apps/tauri/pull/7348)) Sign NSIS uninstaller as well.
+
+### Bug Fixes
+
+- [`46df2c9b`](https://www.github.com/tauri-apps/tauri/commit/46df2c9b917096388695f72ca4c56791fe652ef6)([#7349](https://www.github.com/tauri-apps/tauri/pull/7349)) Fix bundler skipping updater artifacts if `updater` target shows before other updater-enabled targets in the list, see [#7349](https://github.com/tauri-apps/tauri/issues/7349).
+- [`eba8e131`](https://www.github.com/tauri-apps/tauri/commit/eba8e1315ed7078eb9a9479f9e0072b061067341)([#7386](https://www.github.com/tauri-apps/tauri/pull/7386)) On Windows, fix installation packages not showing correct copyright information.
+- [`32218a6f`](https://www.github.com/tauri-apps/tauri/commit/32218a6f8c1d90c2503e7cbc4523e4ab464ba032)([#7326](https://www.github.com/tauri-apps/tauri/pull/7326)) On Windows, fix NSIS installer identifying a previous NSIS-installed app as WiX-installed app and then fails to uninstall it.
+- [`0ae53f41`](https://www.github.com/tauri-apps/tauri/commit/0ae53f413948c7b955e595aa9c6c9e777caa8666)([#7317](https://www.github.com/tauri-apps/tauri/pull/7317)) On Windows, fix NSIS installer showing an error dialog even when the previous version was uninstalled sucessfully.
+- [`6e36ebbf`](https://www.github.com/tauri-apps/tauri/commit/6e36ebbf84dee11a98d8df916c316c7d6f67b2a8)([#7315](https://www.github.com/tauri-apps/tauri/pull/7315)) On Windows, fix NSIS uninstaller failing to remove Start Menu shortcut if `perMachine` mode is used.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@1.5.0`
+- [`a2be88a2`](https://www.github.com/tauri-apps/tauri/commit/a2be88a21db76e9fa063c527031f3849f066eecd)([#7405](https://www.github.com/tauri-apps/tauri/pull/7405)) Removed the `bitness` dependency to speed up compile time.
+
 ## \[1.3.0]
 
 ### New Features
